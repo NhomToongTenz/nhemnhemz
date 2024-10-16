@@ -338,7 +338,8 @@ span{
 
 .heading{
     text-align: center;
-    margin-top: 5rem;
+    margin: 2rem 0;
+    font-size: 2rem;
 }
 
 .services-container{
