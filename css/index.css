@@ -46,14 +46,14 @@ html::-webkit-scrollbar-track{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    background-color: rgba(43, 33, 90, 0.9); /* Màu tối hơn và giảm độ trong suốt */
+    z-index: 100;
+    background-color: rgba(43, 33, 90, 0.9);
     filter: drop-shadow(0 0 15px rgba(43, 33, 90, 0.8));
     padding: 1rem 9%;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1px);
 }
 
 
@@ -338,7 +338,7 @@ span{
 
 .heading{
     text-align: center;
-    margin-bottom: 7rem;
+    margin-top: 5rem;
 }
 
 .services-container{
